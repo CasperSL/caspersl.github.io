@@ -73,7 +73,7 @@ h1 {
 .header.affix {
   background-color: rgba(255, 255, 255, 0.95);
   transition: background-color 500ms ease, border 500ms ease;
-  color: #000;
+  color: #333;
   top: 0;
   padding: 12px 0;
   box-sizing: content-box;
@@ -94,6 +94,11 @@ h1 {
   line-height: 56px;
 }
 
+.header h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .header.affix h2 {
   top: 12px;
 }
@@ -102,6 +107,11 @@ h1 {
   font-weight: 400;
   margin: 0;
   padding: 36px 15px;
+}
+
+.header.affix h2 a, .header-mobile a {
+  color: #333;
+  text-decoration: none;
 }
 
 .header .container {
@@ -201,6 +211,10 @@ h1 {
   .project-hero-small {
     margin-top: 0;
   }
+}
+
+.lead {
+  font-weight: 400;
 }
 
 #icon-mindsets, #icon-infrastructure {
